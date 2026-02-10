@@ -3,6 +3,7 @@ class CollegeStudent(models.Model):
     _name = "college.student"
     _description = "College Student"
 
+        # new comment
     admission_no = fields.Char(string="Admission Name 123",required=True)
     admission_date = fields.Date(string="Admission Date", required=True)
     first_name = fields.Char(string="First Name", required=True)
